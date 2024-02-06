@@ -16,10 +16,12 @@ header{
     margin-bottom: 2%;
 }
 form{
+    border-radius: 10%;
     border: solid black 2px;
     width: 60%;
     padding: 20px 10px;
     margin: 0 auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
 }
 form div{
     display: flex;
@@ -43,6 +45,18 @@ form div label:hover{
 main button{
     float: right;
     padding: 5px 5px;
+    border:solid 1px #001449;
+    background-color: #001449;
+    font-size: large;
+    border-radius: 10%;
+    color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+main button:hover{
+    color: black;
+    cursor: pointer;
+    background-color: white;
 }
 footer{
     margin-top: 5%;
@@ -53,9 +67,4 @@ footer{
 footer img{
     float: right;
     width: 21%;
-}
-@media screen and (min-width:800px){
-   body{
-    background-color: #001449;
-   }   
 }

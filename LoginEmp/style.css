@@ -23,23 +23,36 @@ form{
     border: solid transparent 2px;
     border-radius: 10%;
     width: 60%;
-    padding: 20px 10px;
+    padding: 20px 1px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
 }
 #role{
     margin-top: 20px;
     margin-right: 65%;
 } 
 button{
-    width: 20%;
-    background-color: white;
+    padding: 5PX 5PX;
+    border:solid 1px #001449;
+    background-color: #001449;
     font-size: large;
+    border-radius: 10%;
+    color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
+button:hover{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+
 label,input{
     color: #001449;
+    position: relative;
 }
 
 section a{
@@ -60,10 +73,23 @@ footer img{
     width: 21%;
     margin-bottom: 0%;
 }
-@media screen and (max-width:730px){
-  main form{
-     border: solid 1px black;
-     background-color: white;
-    
-  }
+@media screen and (max-width:552px){
+    form div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    form{
+        background-color: white;
+        border: solid black 2px;
+        border-radius: 10%;
+        width: 60%;
+        padding: 20px 1px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
+    }
+        
 }
