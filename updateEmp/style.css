@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'Poppins';
+}
+header h1{
+    text-align: center;
+    color: #005bc5;
+}
+h3{
+    text-align: center;
+    color: #012677;
+}
+header{
+    margin-bottom: 2%;
+}
+form{
+    border: solid black 2px;
+    width: 60%;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+label,input{
+    color: #001449;
+}
+form div input{
+    width: 50%;
+    margin-left: 10%;
+    padding:10px 10px ;
+}
+form div label:hover{
+    scale: 1.5;
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: underline;
+}
+main button{
+    float: right;
+    padding: 5px 5px;
+}
+footer{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer img{
+    float: right;
+    width: 21%;
+}
+@media screen and (min-width:800px){
+   body{
+    background-color: #001449;
+   }   
+}
